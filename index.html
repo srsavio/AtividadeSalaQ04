@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
-    <h1> Contador de cliques </h1>
-    <button onclick="contar()"> clique ++</button>
-    <button onclick="zerar()"> zerar o contador</button>
-    <section id="resultado">
-     <p>O contador esta com <mark>0</mark> CLIQUES.</p>
-    </section>
+    <center>
+      <h1 class="HH"> Contador de cliques </h1>
+      <hr style="color: orangered ; ">
+          <button class="BT" onclick="contar()"> clique ++</button>
+          <button class="BT" onclick="zerar()"> zerar o contador</button>
+      </hr>
+            <section style="font-size: 25px;color: rgb(68, 39, 146);" id="resultado">
+               <p>O contador esta com <mark>0</mark> CLIQUES.</p>
+            </section>
+    </center>  
 
     <script src="js/script.js"> </script>
 </body>
